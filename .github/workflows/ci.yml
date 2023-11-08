@@ -31,4 +31,6 @@ jobs:
 
       - name: qualite
         run: ./tests/tests_pyramid.sh
-
+      
+      - name: tests fonctionnels
+        run: behave tests/test_functional/features
